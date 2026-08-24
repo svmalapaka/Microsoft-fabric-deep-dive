@@ -1,4 +1,5 @@
 🧩 1. What is Microsoft Fabric?
+
 Microsoft Fabric is a unified data and analytics platform that brings together:
 
 OneLake (Delta‑based storage)
