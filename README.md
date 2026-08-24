@@ -106,8 +106,7 @@ Data lineage
 Security boundaries
 
 🔗 LinkedIn Carousel Link
-(Add your LinkedIn post URL here once published)
-
+[https://lnkd.in/p/e_Di_aZU]
 🔗 Follow the Series
 This repo will contain:
 
