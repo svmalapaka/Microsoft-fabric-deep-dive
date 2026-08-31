@@ -1,66 +1,81 @@
-Microsoft Fabric Learning Series — Day 3
-Unified Fabric Architecture: Lakehouse + Warehouse + Governance + BI
-Fabric brings all analytics workloads together into one integrated platform. Today’s focus is understanding how the core components — OneLake, Lakehouse, Warehouse, Governance, and BI — connect to form a unified architecture.
+# Microsoft Fabric Learning Series — Day 3
+## Unified Fabric Architecture: Lakehouse + Warehouse + Governance + BI
 
-🔹 1. OneLake Storage Layer
-Central, organization-wide data lake
+### Extended Description
+Day 3 focuses on understanding how Microsoft Fabric unifies the entire analytics ecosystem into a single, integrated architecture. By combining OneLake storage, Lakehouse modeling, Warehouse modeling, governance, and Power BI into one platform, Fabric eliminates data silos, reduces duplication, and simplifies end‑to‑end analytics engineering. This unified design enables teams to build scalable, governed, and high‑performance analytics systems with fewer moving parts.
 
-Delta tables as the universal storage format
+---
 
-Shared foundation for all Fabric workloads
+## 1. OneLake Storage Layer
+OneLake acts as the central, organization-wide data lake for all Fabric workloads.
 
-Eliminates data duplication across teams and workspaces
+- Unified storage for Lakehouse, Warehouse, Real-Time, Data Science, and BI  
+- Delta tables as the universal storage format  
+- Eliminates redundant copies across workspaces  
+- Simplifies collaboration and governance  
 
-🔹 2. Lakehouse Modeling
-Ideal for large-scale analytics and ML
+---
 
-Supports schema evolution
+## 2. Lakehouse Modeling
+Lakehouse provides a flexible analytics layer built on Delta tables.
 
-ACID-compliant Delta tables
+- Ideal for large-scale analytics and machine learning  
+- Supports schema evolution  
+- ACID-compliant Delta tables  
+- Combines the flexibility of a data lake with the structure of a warehouse  
 
-Combines flexibility of a data lake with structure of a warehouse
+---
 
-🔹 3. Warehouse Modeling
-SQL-optimized semantic layer
+## 3. Warehouse Modeling
+Fabric Warehouse delivers a SQL-optimized semantic layer for BI workloads.
 
-Designed for BI and reporting workloads
+- Structured modeling for reporting  
+- High-performance SQL queries  
+- Direct Lake mode removes refresh cycles  
+- BI-ready tables without data movement  
 
-Direct Lake mode removes refresh cycles
+---
 
-High-performance queries with structured modeling
+## 4. Governance & Security Layer
+Fabric includes governance as a built-in, first-class component.
 
-🔹 4. Governance & Security Layer
-Centralized catalog and metadata
+- Centralized catalog and metadata  
+- Lineage tracking across pipelines and models  
+- Unified access control  
+- Compliance and policy enforcement  
 
-Built-in lineage tracking
+---
 
-Unified access control
+## 5. BI & Analytics Layer (Power BI)
+Power BI integrates directly with Fabric through Direct Lake.
 
-Compliance and policy enforcement across the entire platform
+- Reads Delta tables directly  
+- No import or refresh required  
+- Semantic models built on top of Lakehouse/Warehouse  
+- Dashboards and insights with minimal overhead  
 
-🔹 5. BI & Analytics Layer (Power BI)
-Direct Lake connectivity
+---
 
-Semantic models built directly on Delta tables
+## Architecture Diagram
+*(Upload your Day‑3 diagram here — the same one used in your LinkedIn post)*
 
-Dashboards, reports, and insights without data movement
+Example path:
 
-End-to-end analytics with minimal overhead
-
-📘 Architecture Diagram
-(Upload your Day‑3 diagram here — the same one you posted on LinkedIn)
-
-💡 Why This Architecture Matters
+## Why This Architecture Matters
 Fabric’s unified design helps teams:
 
-Reduce pipeline complexity
-
-Avoid redundant storage
-
-Improve governance and lineage
-
-Deliver insights faster
-
-Build scalable analytics systems with fewer moving parts
+- Reduce pipeline complexity  
+- Avoid redundant storage  
+- Improve governance and lineage  
+- Deliver insights faster  
+- Build scalable analytics systems with fewer moving parts  
 
 This architecture is the backbone of modern analytics engineering in Fabric.
+
+---
+
+## Daily Progress
+- Day 1 — Fabric Overview  
+- Day 2 — OneLake Architecture  
+- Day 3 — Unified Fabric Architecture  
+
