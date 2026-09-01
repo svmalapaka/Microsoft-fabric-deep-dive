@@ -19,3 +19,9 @@ Revisit DP‑700 concepts with structured notes and practical examples.
 - What is a Lakehouse?
 - How Fabric integrates pipelines, notebooks, and warehouses
 - Data modeling best practices
+
+## Fabric Lakehouse Architecture Deep Dive
+- Understand how OneLake serves as the unified storage layer.
+- Explore shortcuts and data mirroring between lakehouse and warehouse.
+- Review compute engines: Spark, SQL, and Dataflows.
+- Discuss governance and security integration with Microsoft Purview.
